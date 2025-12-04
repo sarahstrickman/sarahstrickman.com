@@ -1,0 +1,9 @@
+name = "perceocrity-hugo-gallery"
+compatibility_date = "2025-07-31"
+
+[build]
+command = "hugo --minify --gc -s ./exampleSite"
+
+[assets]
+directory = "./exampleSite/public"
+not_found_handling = "404-page"
